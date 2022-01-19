@@ -19,11 +19,14 @@ body
     max-width: 600px;
     margin:auto;
 }
-
+hr{
+    margin : 2.5 rem ,0rem
+}
 /** Links **/
 .links
 {
     padding: 0.5rem 1rem;
+    text-decoration: none;
 }
 .primary-link
 {
@@ -42,4 +45,45 @@ body
     
     text-decoration: none;
 
+}
+
+
+/** List **/
+
+.list-non-bullet
+{
+    list-style: none;
+}
+.list-item-inline
+{
+    display:inline;
+    padding : 0rem 0.5rem;
+
+}
+
+.navigation
+{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation-brand
+{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .links
+{
+    text-align: right;
+    color : white;
+}
+
+.navigation .nav-pills
+{
+    text-align: right;
+}
+.navigation .link-active
+{
+    font-weight: bold;
+    
 }

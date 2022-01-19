@@ -3,6 +3,7 @@
 :root
 {
     --primary-color:#7C3AED;
+    --grey-color:#6b7280;
 }
 body
 {
@@ -86,4 +87,24 @@ hr{
 {
     font-weight: bold;
     
+}
+
+.hero
+{
+    padding: 2rem;
+}
+.hero .hero-img
+{
+    max-width:350px;
+    display:block;
+    margin :auto;
+}
+.hero .hero-heading
+{
+    color:var(--grey-color);
+}
+
+.hero .hero-heading .heading-inverted
+{
+    color: var(--primary-color);
 }

@@ -4,10 +4,12 @@
 {
     --primary-color:#7C3AED;
     --grey-color:#6b7280;
+    --off-white:#d1d5db;
 }
 body
 {
     font-family: 'Montserrat', sans-serif;
+    margin:0px
 }
 /**container class **/
 .container
@@ -101,10 +103,43 @@ hr{
 }
 .hero .hero-heading
 {
+    text-align: center;
     color:var(--grey-color);
 }
 
 .hero .hero-heading .heading-inverted
 {
     color: var(--primary-color);
+}
+.section .h1,h2,h3
+{
+    text-align:center;
+    padding : 2rem;
+
+}
+.section
+{
+    padding: 2rem;
+}
+.ow
+{
+   background-color: var(--off-white);
+}
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color:white;
+}
+.footer .links
+{
+    color: white;
+}
+
+.footer ul
+{
+  padding-inline-start: 0rem;
 }
